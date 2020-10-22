@@ -1,4 +1,4 @@
-# server
+# simpleServe
 
 > node+express project
 >
