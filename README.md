@@ -1,4 +1,4 @@
-# NME-server
+# server
 
 > node+express project
 >
