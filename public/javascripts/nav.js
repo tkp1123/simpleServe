@@ -15,27 +15,27 @@ const nav = {
                 {
                     "id": "2-1",
                     "autoName": "持仓明细",
-                    "path": "ccmx"
+                    "path": "holdorderDetail"
                 },
                 {
                     "id": "2-2",
                     "autoName": "持仓历史",
-                    "path": "ccls"
+                    "path": "holdorderHistory"
                 },
                 {
                     "id": "2-3",
                     "autoName": "止损明细",
-                    "path": "zsmx"
+                    "path": "stoplossDetail"
                 },
                 {
                     "id": "2-4",
                     "autoName": "止盈明细",
-                    "path": "zymx"
+                    "path": "stopprofitDetail"
                 },
                 {
                     "id": "2-5",
                     "autoName": "信用金明细",
-                    "path": "xyjmx"
+                    "path": "creditDetail"
                 }
             ]
         },
@@ -48,7 +48,7 @@ const nav = {
                 {
                     "id": "3-1",
                     "autoName": "平仓明细",
-                    "path": "pcmx"
+                    "path": "closeorderDetail"
                 }
             ]
         },
@@ -61,12 +61,12 @@ const nav = {
                 {
                     "id": "4-1",
                     "autoName": "会员明细",
-                    "path": "hymx"
+                    "path": "memberDetail"
                 },
                 {
                     "id": "4-2",
                     "autoName": "会员资金明细",
-                    "path": "hyzjmx"
+                    "path": "memberfundDetail"
                 }
             ]
         },
@@ -79,22 +79,22 @@ const nav = {
                 {
                     "id": "5-1",
                     "autoName": "代理商明细",
-                    "path": "dlsmx"
+                    "path": "agentDetail"
                 },
                 {
                     "id": "5-2",
                     "autoName": "代理商资金明细",
-                    "path": "dlszjmx"
+                    "path": "agentfundDetail"
                 },
                 {
                     "id": "5-3",
                     "autoName": "代理商分润比率设置",
-                    "path": "dlsfrblsz"
+                    "path": "agentfundSeparate"
                 },
                 {
                     "id": "5-4",
                     "autoName": "代理商分润明细",
-                    "path": "dlsfrmx"
+                    "path": "agentfundSeparateDetail"
                 }
             ]
         },
@@ -107,7 +107,7 @@ const nav = {
                 {
                     "id": "6-1",
                     "autoName": "操作员一览",
-                    "path": "czyyl"
+                    "path": "operatorDetail"
                 }
             ]
         },
@@ -120,17 +120,17 @@ const nav = {
                 {
                     "id": "8-1",
                     "autoName": "角色管理",
-                    "path": "jsgl"
+                    "path": "roleManagement"
                 },
                 {
                     "id": "8-2",
                     "autoName": "权限一览",
-                    "path": "qxyl"
+                    "path": "authorityDetail"
                 },
                 {
                     "id": "8-3",
                     "autoName": "权限模版",
-                    "path": "qxmb"
+                    "path": "authorityTemplate"
                 }
             ]
         }
