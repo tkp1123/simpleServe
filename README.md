@@ -1,6 +1,6 @@
 # simpleServe
 
-> node+express project
+> node + express + mysql project
 >
 
 # install dependencies

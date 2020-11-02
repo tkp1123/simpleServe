@@ -7,7 +7,10 @@ var navData = require('../src/nav/nav.js')
 var chartData = require('../src/chart/chartData.js')
 
 router.get('/', function (req, res, next) {
-  res.render('index', { title: 'Express' });
+  res.json({
+    code: '404',
+    msg: '无效接口'
+  })
 });
 router.post('/app/login', function (req, res, next) {
   user.loginData(req, res, next)
