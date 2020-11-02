@@ -1,10 +1,10 @@
 var express = require('express');
 var fs = require('fs'); //文件模块
 var router = express.Router();
-var user = require('../public/javascripts/user.js')
-var welcomeChart = require('../public/javascripts/welcomeChart.js')
-var navData = require('../public/javascripts/nav.js')
-var chartData = require('../public/javascripts/chartData.js')
+var user = require('../src/user/user.js')
+var welcomeChart = require('../src/welcome/welcomeChart.js')
+var navData = require('../src/nav/nav.js')
+var chartData = require('../src/chart/chartData.js')
 
 router.get('/', function (req, res, next) {
   res.render('index', { title: 'Express' });
