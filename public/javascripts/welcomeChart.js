@@ -33,19 +33,6 @@ const chartLine = {
 const animationDuration = 3000
 const chartBar = [
     {
-        name: 'apple',
-        type: 'bar',
-        stack: 'vistors',
-        barWidth: '60%',
-        data: [179, 152, 500, 234, 190, 930, 1220],
-        animationDuration,
-        itemStyle: {
-            normal: {
-                color: '#40c9c6',
-            },
-        },
-    },
-    {
         name: 'pear',
         type: 'bar',
         stack: 'vistors',
@@ -68,19 +55,6 @@ const chartBar = [
         itemStyle: {
             normal: {
                 color: '#f4516c',
-            },
-        },
-    },
-    {
-        name: 'cherry',
-        type: 'bar',
-        stack: 'vistors',
-        barWidth: '60%',
-        data: [130, 152, 100, 134, 190, 130, 2120],
-        animationDuration,
-        itemStyle: {
-            normal: {
-                color: '#34bfa3',
             },
         },
     },

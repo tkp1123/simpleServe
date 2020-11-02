@@ -5,7 +5,7 @@ var logger = require('morgan');
 var fs = require('fs'); //文件模块
 var cookieParser = require('cookie-parser');
 var bodyParser = require('body-parser');
-
+var http = require('http');
 var indexRouter = require('./routes/index');
 
 var app = express();
@@ -55,5 +55,7 @@ app.use(function (err, req, res, next) {
   res.status(err.status || 500);
   res.render('error');
 });
+
+app.listen('3000')
 
 module.exports = app;
