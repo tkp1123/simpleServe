@@ -64,7 +64,7 @@ module.exports = {
         //这里需要then以后才可以拿到返回值,因为他们是异步的,能拿到true和false
         userIsHave(param).then((thenData) => {
             if (thenData) {
-                const sql = "insert into user set ?";
+                const sql = "insert into user (name,pwd,email,mobile) value ?";
                 const sqlArr = [param];
                 const callback = (err, dbData) => {
                     if (err) {
