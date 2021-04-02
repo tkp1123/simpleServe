@@ -3,7 +3,6 @@ var path = require('path');
 var cookieParser = require('cookie-parser');
 var logger = require('morgan');
 var fs = require('fs'); //文件模块
-var cookieParser = require('cookie-parser');
 var bodyParser = require('body-parser');
 var http = require('http');
 var indexRouter = require('./routes/index');

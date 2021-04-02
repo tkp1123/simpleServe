@@ -1,4 +1,4 @@
-var db = require('../../util/dbconfig')
+const db = require('../../../util/dbconfig')
 //注册验证
 //注册的时候需要查询是否已经有注册过的,会return true和false,true代表没有被注册,false代表已经被注册
 let userIsHave = (dbData) => {

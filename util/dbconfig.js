@@ -17,8 +17,6 @@ module.exports = {
         var pool = mysql.createPool(this.config);
         pool.getConnection((err, conn) => {
             if (err) {
-                console.log('第20行:', err);
-                console.log('第21行:连接失败')
                 return;
             } else {
                 //事件驱动回调
